@@ -28,9 +28,10 @@ int main(void) {
 
         switch (opcion) {
             case 1:
-                cargarCSV(db,"TbCongestion");
+                cargarCSV("C:\\Users\\Jurguen Monge\\CLionProjects\\SqlProject\\archivos\\carga.bat");
                 break;
             case 2:
+                ejecutarSQL(db,"VACUUM;");
                 break;
             case 3:
                 cerrarConexion(&db);
