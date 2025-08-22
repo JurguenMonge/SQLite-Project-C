@@ -7,13 +7,14 @@
 
 //Rutas de las vistas
 #define VISTA_CANTIDAD_EVENTOS "C:\\Users\\Jurguen Monge\\CLionProjects\\SqlProject\\archivos\\view_cantidad_eventos.sql"
-#define VISTA_CANTIDAD "C:\\Users\\Jurguen Monge\\CLionProjects\\SqlProject\\archivos\\view_cantidad_eventos.sql"
+#define VISTA_CONGESTION_CLIMA "C:\\Users\\Jurguen Monge\\CLionProjects\\SqlProject\\archivos\\view_congestion_clima.sql"
 
 //Ruta .bat
 #define CARGA "C:\\Users\\Jurguen Monge\\CLionProjects\\SqlProject\\archivos\\carga.bat"
 
 //Ruta de los indices
 #define INDICE_CANTIDAD_EVENTOS "C:\\Users\\Jurguen Monge\\CLionProjects\\SqlProject\\archivos\\indice_cantidad_eventos.sql"
+#define INDICE_CONGESTION_CLIMA "C:\\Users\\Jurguen Monge\\CLionProjects\\SqlProject\\archivos\\indice_congestion_clima.sql"
 
 //Ruta
 #define RESULTADO_VISTA_CANTIDAD_EVENTOS_SIN_INDICE "C:/Users/Jurguen Monge/CLionProjects/SqlProject/archivos/resultados_sin_indice.sql"

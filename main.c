@@ -36,7 +36,7 @@ int main(void) {
             case 2:
                 int opcionVista;
                 printf("1 - Vista de cantidad de eventos\n");
-                printf("2 - Vista de cantidad de ubicaciones\n");
+                printf("2 - Vista de congestion de clima\n");
                 printf("Seleccione una vista: ");
                 scanf("%d", &opcionVista);
                 getchar();
@@ -44,7 +44,7 @@ int main(void) {
                 if (opcionVista == 1) {
                    abrirArchivo(db,VISTA_CANTIDAD_EVENTOS,sql, sizeof(sql));
                 }else if (opcionVista == 2) {
-                    abrirArchivo(db,VISTA_CANTIDAD,sql, sizeof(sql));
+                    abrirArchivo(db,VISTA_CONGESTION_CLIMA,sql, sizeof(sql));
                 }
 
                 break;
@@ -52,7 +52,7 @@ int main(void) {
             case 3:
                 int opcionIndice;
                 printf("1 - Crear indice de cantidad de eventos\n");
-                printf("2 - Crear indice de cantidad de ubicaciones\n");
+                printf("2 - Crear indice de congestion de clima\n");
                 printf("Seleccione un indice: ");
                 scanf("%d", &opcionIndice);
                 getchar();
@@ -60,7 +60,7 @@ int main(void) {
                 if (opcionIndice == 1) {
                     abrirArchivo(db,INDICE_CANTIDAD_EVENTOS,sql, sizeof(sql));
                 }else if (opcionIndice == 2) {
-                    abrirArchivo(db,INDICE_CANTIDAD_EVENTOS,sql, sizeof(sql));
+                    abrirArchivo(db,INDICE_CONGESTION_CLIMA,sql, sizeof(sql));
                 }
                 break;
 
